@@ -7,7 +7,7 @@ h1, h2, p {
     color: white;
 }
 h1 {
-    font-size: 42px;
+    font-size: 38px;
     
 }
 h2 {
@@ -19,8 +19,12 @@ body {
     background-color: black;
 }
 .container {
-    max-width: 100%;
+    display: -webkit-flex;
+display: flex;
     
+}
+flex1 {
+    flex-direction: row;
 }
 
 .col-1 {width: 8.33%;}

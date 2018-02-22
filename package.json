@@ -1,0 +1,20 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "auto": "autoprefixer-cli -o css/style.prefixed.css css/style.css",
+      "validate": "nu-html-checker index.html",
+      "build": "npm run auto",
+      "prebuild": "npm run validate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.23.6",
+    "nu-html-checker": "^0.1.0"
+  }
+}
